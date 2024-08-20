@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/julian-manke-developer/static/css/main.b37b1f87.css",
+    "main.js": "/julian-manke-developer/static/js/main.c5afe882.js",
+    "static/js/453.1820b6b9.chunk.js": "/julian-manke-developer/static/js/453.1820b6b9.chunk.js",
+    "static/media/jm.jpg": "/julian-manke-developer/static/media/jm.b8dcbd6f398c454ee626.jpg",
+    "static/media/website.jpg": "/julian-manke-developer/static/media/website.3ff7a5e634ffdf247441.jpg",
+    "static/media/timevault.jpg": "/julian-manke-developer/static/media/timevault.aaf158a9e3e8bd404e7b.jpg",
+    "static/media/jambit.svg": "/julian-manke-developer/static/media/jambit.cb23ab162a556d53c1b63a4607d2850a.svg",
+    "static/media/experience.svg": "/julian-manke-developer/static/media/experience.686c9a93c9433fe0a6a9.svg",
+    "static/media/trumpf.svg": "/julian-manke-developer/static/media/trumpf.95c1d49f0d71ea8da347.svg",
+    "static/media/github.svg": "/julian-manke-developer/static/media/github.ca3156b4372e9d26fc1d699002d06890.svg",
+    "index.html": "/julian-manke-developer/index.html",
+    "static/media/linkedin.svg": "/julian-manke-developer/static/media/linkedin.4dd0f9efff45104c4404eb8aa170ea6c.svg",
+    "static/media/x.svg": "/julian-manke-developer/static/media/x.02605a63f47ba384d329354ca8c726bb.svg",
+    "main.b37b1f87.css.map": "/julian-manke-developer/static/css/main.b37b1f87.css.map",
+    "main.c5afe882.js.map": "/julian-manke-developer/static/js/main.c5afe882.js.map",
+    "453.1820b6b9.chunk.js.map": "/julian-manke-developer/static/js/453.1820b6b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b37b1f87.css",
+    "static/js/main.c5afe882.js"
+  ]
+}
