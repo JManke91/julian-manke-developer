@@ -1,0 +1,21 @@
+.experience-accord {
+  margin: 50px;
+}
+
+.experience-section {
+  margin-bottom: 20px;
+}
+
+.experience-section-title {
+  font-family: "Google Sans Regular";
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Adjust color as needed */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .experience-accord {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,178 @@
+/* src/pages/Home.css */
+
+.home-wrapper {
+    background-color: #111; /* Dark background color */
+    padding: 20px 0; /* Add vertical padding to match content padding */
+  }
+
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff; /* White text color */
+    background-color: #111; /* Dark background color */
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-header h2 {
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .home-header p {
+    font-size: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.2;
+  }
+  
+  .home-photo {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .home-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #444;
+  }
+  
+  .home-social-links {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .home-social-links a {
+    margin: 0 10px;
+  }
+  
+  .home-social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s, filter 0.3s;
+    filter: brightness(0) invert(1);
+  }
+  
+  .home-social-links img:hover {
+    transform: scale(1.3);
+  }
+  
+  .home-tech-stack {
+    margin-top: 60px;
+  }
+  
+  .home-tech-stack h3 {
+    font-size: 2.5rem; /* Increase the font size */
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .tech-category {
+    margin-bottom: 40px;
+  }
+  
+  .tech-category h4 {
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+    color: #eee;
+  }
+  
+  .tech-icons {
+    display: flex;
+    flex-wrap: wrap; /* Allows the icons to wrap to the next line if needed */
+    gap: 10px; /* Adjust the gap between icons */
+    justify-content: center; /* Center align the icons horizontally */
+    margin-bottom: 20px;
+  }
+  
+  .tech-icons .icon-large {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px; /* Adjust the margin between icons */
+  }
+
+
+  .tech-icons .icon-medium {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tech-icons .icon-small {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .tech-icons .icon-large:hover {
+    fill: #ff6600; /* Change color on hover */
+  }
+  
+  .tech-category p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #bbb;
+  }
+
+  .tech-category {
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+  }
+  
+  .tech-category.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 768px) {
+    .home-header h1 {
+      font-size: 2rem;
+    }
+  
+    .home-header h2 {
+      font-size: 1.2rem;
+    }
+  
+    .home-header p {
+      font-size: 1rem;
+    }
+  
+    .home-photo img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .tech-icons {
+      flex-wrap: wrap;
+    }
+  
+    .tech-icons .icon-large {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px;
+    }
+
+    .tech-category p {
+      font-size: 1.0rem;
+      line-height: 1.5;
+      color: #bbb;
+    }
+
+    .tech-category {
+      opacity: 0;
+      transform: translateX(-100px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+  }
+  

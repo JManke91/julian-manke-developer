@@ -1,0 +1,43 @@
+.education-card {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .education-card-header {
+    margin-bottom: 10px;
+  }
+  
+  .education-card-degree {
+    margin: 0;
+    font-size: 24px;
+    font-family: "Google Sans Medium";
+  }
+  
+  .education-card-institution {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Google Sans Regular";
+  }
+  
+  .education-card-body {
+    margin-top: 10px;
+  }
+  
+  .education-card-duration {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .education-card-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  

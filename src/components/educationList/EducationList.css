@@ -1,0 +1,11 @@
+.education-list {
+    margin: 50px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .education-list {
+      margin: 20px;
+    }
+  }
+  
