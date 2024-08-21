@@ -9,9 +9,11 @@ import Navbar from './components/Navbar';
 
 import { chosenTheme } from "./Theme";
 
+const basename = process.env.PUBLIC_URL;
+
 function App() {
   return (
-    <Router>
+    <Router basename={basename}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
